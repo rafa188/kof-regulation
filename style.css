@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/95595b71667351.5bcda2d9dac81.gif");
+    background-repeat: repeat-x;
+    background-position: top ;
+    padding-top: 50px;
+}
+@font-face {
+    font-family: 'FederationClassic';
+    font-size: normal;
+    font-weight: normal;
+    src: url(fonts/FEC_____.TTF);
+}
+#lista
+{
+    display: inline-flex;
+    margin: auto;
+    padding: 1px;
+    text-align: center;
+    text-overflow: clip;
+    text-decoration: none;
+}
+nav
+{
+    display: block;
+    background-color: white;
+    height: 73px;
+    margin: auto;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    border-radius: 40px 5px 80px 20px;
+    box-shadow: #71FF00 10px 3px 20px;
+}
+a
+{
+    font-family: 'FederationClassic';
+    
+    font-size: 20px;
+    color: black;
+    padding: 30px;
+    background-color: white;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 20px;
+    outline: auto #71FF00;
+    box-shadow: #71FF00 10px 0px 10px;
+}
+a:hover {
+    background: #73ff00b2;
+    box-shadow: #73ff0094 10px 3px 50px;
+    color: #EF5702;
+}
+
+#logo_game
+{
+    display: block;
+    margin: auto;
+    width: 50vh;
+}
+.fogo_verde
+{
+    margin: auto;
+    width: 20px;
+}
+#img_bot
+{
+    display: block;
+    width: 400px;
+}
+#partebx
+{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding-top: 100px;
+}
