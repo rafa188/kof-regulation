@@ -1,9 +1,11 @@
 body {
     background-color: black;
-    background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/95595b71667351.5bcda2d9dac81.gif");
+    /*background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/95595b71667351.5bcda2d9dac81.gif");*/
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/37/549/284/smoke-green-shroud-clot-wallpaper-preview.jpg");
     background-repeat: repeat-x;
-    background-position: top ;
-    padding-top: 50px;
+    background-position: top;
+    padding-top: 10px;
+    position: static;
 }
 @font-face {
     font-family: 'FederationClassic';
@@ -55,7 +57,7 @@ a:hover {
 {
     display: block;
     margin: auto;
-    width: 50vh;
+    width: 40vh;
 }
 .fogo_verde
 {
@@ -66,11 +68,13 @@ a:hover {
 {
     display: block;
     width: 400px;
+   
 }
 #partebx
 {
     display: block;
     margin: auto;
-    width: 300px;
-    padding-top: 100px;
+    width: 200px;
+    padding-top: 190px;
+    border-radius: 400px ;
 }

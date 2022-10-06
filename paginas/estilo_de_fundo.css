@@ -1,0 +1,26 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+body
+{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/37/549/284/smoke-green-shroud-clot-wallpaper-preview.jpg");
+    width: 100px;
+    margin: auto;
+    background-position: absolute;
+}
+#menu
+{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    padding-top: 60px;
+    width: 100px;
+}
+#menu:hover
+{
+    padding-top: 0px;
+    box-shadow: chartreuse 1px 1px 40px;
+}
