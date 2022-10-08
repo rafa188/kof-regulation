@@ -68,13 +68,24 @@ option
 a:hover > option
 {
     display: block;
+    
 }
 span
 {
     display: none;
+    transition: 4s;
     border: 1px solid white;
-    height: 400px;
+    height: auto;
     width: 400px;
+}
+:hover > span
+{
+    display: block;
+    border: 1px solid white;
+    height: auto;
+    width: 400px;
+    box-shadow: chartreuse 1px 3px 10px;
+    
 }
 .kit
 {
@@ -82,6 +93,7 @@ span
     border: 1px solid chartreuse;
     color: white;
     text-shadow: chartreuse 1px 1px 10px;
+   
 }
 .habi
 {
@@ -89,9 +101,17 @@ span
     border: 1px solid white;
     color: rgba(128, 255, 0, 0.788);
     background-image: linear-gradient(to bottom, rgba(128, 128, 128, 0.37), transparent);
+    
 }
 .butoes
 {
     display: block;
     width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.combos 
+{
+    display: inline-flex;
+    padding: 10px;
 }
